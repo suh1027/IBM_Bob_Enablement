@@ -161,7 +161,7 @@ Bob IDE를 처음 실행하면 사용자의 기존 개발 환경과 이전 Bob �
 
 기존에 Bob v1.x 버전을 사용한 적이 있는 PC에서는 아래와 같이 이전 작업 기록을 새 버전으로 옮길지 묻는 Migration 화면이 나타날 수 있습니다.
 
-![Bob Main 2.png](Bob_Main_2.png)
+![Bob Main 2.png](images/Bob_Main_2.png)
 
 이 화면은 **기존 Bob 사용 이력이 있는 경우에만 나타날 수 있으며**, 처음 설치한 참가자는 표시되지 않을 수 있습니다.
 
@@ -198,21 +198,21 @@ IBM 공식 문서에서도 이전 작업 기록이 꼭 필요하지 않은 경�
 
 ## 4-3. Bob 로그인
 
-![image.png](image%201.png)
+![image.png](images/image%201.png)
 
 Bob 패널에서 **Log in to Bob**을 클릭합니다.
 
-![image.png](image%202.png)
+![image.png](images/image%202.png)
 
 로그인 안내 창이 나타나면 **OK**를 클릭합니다.
 
 외부 웹사이트 열기 확인 창에서는 주소를 확인한 뒤 **Open**을 클릭합니다.
 
-![image.png](image%203.png)
+![image.png](images/image%203.png)
 
 브라우저에서 준비한 계정으로 로그인합니다. 인증 후 Bob 애플리케이션을 열겠다는 안내가 나타나면 **열기 / Open**을 선택합니다.
 
-![image.png](image%204.png)
+![image.png](images/image%204.png)
 
 IDE로 돌아와 URI 열기 확인 창이 표시되면, 방금 수행한 Bob 로그인에서 돌아온 요청인지 확인한 뒤 **Open**을 클릭합니다.
 
@@ -220,11 +220,11 @@ IDE로 돌아와 URI 열기 확인 창이 표시되면, 방금 수행한 Bob 로
 
 ## 4-4. 한국어 표시 언어 설정 — 선택
 
-![image.png](image%205.png)
+![image.png](images/image%205.png)
 
 Bob 패널의 설정 아이콘 또는 **Bob Settings**를 클릭합니다.
 
-![image.png](image%206.png)
+![image.png](images/image%206.png)
 
 **General → Language → Configure Language**를 선택합니다.
 
@@ -357,7 +357,7 @@ IBM-Bob-Lab 폴더 아래 Github Repository 의 html 파일을 다운로드 하�
 html 파일 주소는 https://github.com/suh1027/IBM_Bob_Enablement/blob/main/Lab_1/file/Menu.html 야.
 ```
 
-![image.png](image%207.png)
+![image.png](images/image%207.png)
 
 1. 다운로드 명령이나 파일 생성 요청이 나오면 URL과 저장 위치를 확인한 뒤 승인합니다.
 2. Explorer에 `Menu.html`이 생성됐는지 확인합니다.
@@ -418,7 +418,7 @@ Bob Chat 하단에서 **Agent Mode**를 선택합니다.
 
 Bob Chat에 아래 명령을 입력합니다.
 
-![*한국어 Context 생성 요청*](image%208.png)
+![*한국어 Context 생성 요청*](images/image%208.png)
 
 *한국어 Context 생성 요청*
 
@@ -436,7 +436,7 @@ Bob이 파일 읽기 또는 파일 생성을 요청하면 수행할 내용을 �
 > Session 1에서 설명한 **Human-in-the-Loop**를 실제로 경험하는 첫 지점입니다.
 > 
 
-![image.png](image%209.png)
+![image.png](images/image%209.png)
 
 Bob은 프로젝트 구조 확인, 주요 파일 분석, Context 문서 생성, 결과 요약 등의 작업을 진행합니다. 
 
@@ -455,7 +455,7 @@ Bob은 프로젝트 구조 확인, 주요 파일 분석, Context 문서 생성, 
 
 자동 승인 설정에 따라 일부 승인 창은 나타나지 않을 수 있습니다.
 
-![image.png](image%2010.png)
+![image.png](images/image%2010.png)
 
 캡처에서는 `Menu.html`을 HTML/CSS/JavaScript 단일 파일 프로젝트로 분석하고, 루트와 모드별 Context 문서 4개를 생성했습니다. “모든 작업 완료”와 체크된 작업 목록은 이 초기화 작업의 진행 상태를 의미합니다.
 
@@ -523,7 +523,7 @@ Explorer에서 루트 `AGENTS.md`를 열어 아래 내용을 확인합니다.
 아직 코드는 수정하지 마.
 ```
 
-![image.png](image%2011.png)
+![image.png](images/image%2011.png)
 
 **확인할 내용**
 
@@ -544,7 +544,7 @@ Mode를 **Plan**으로 전환합니다. 같은 대화에서 앞선 분석을 이
 구체적인 파일 명은 BUG-FIX-2026-09-28.md 로 부탁해
 ```
 
-![image.png](image%2012.png)
+![image.png](images/image%2012.png)
 
 *Plan으로 수정 계획 작성*
 
@@ -569,7 +569,7 @@ BUG-FIX-2026-09-28.md의 검토한 계획을 기준으로 Menu.html을 수정해
 완료 후 변경한 부분과 수행한 검증, 직접 확인하지 못한 항목을 알려줘.
 ```
 
-![image.png](image%2013.png)
+![image.png](images/image%2013.png)
 
 파일 수정이나 명령 실행 요청이 표시되면 계획의 범위와 일치하는지 확인하고 승인합니다. 
 
