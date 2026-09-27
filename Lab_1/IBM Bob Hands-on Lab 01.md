@@ -125,7 +125,7 @@ Bob IDE를 처음 실행하면 사용자의 기존 개발 환경과 이전 Bob �
 
 최초 실행 시 아래와 같이 기존 Editor의 설정과 Extension을 가져올지 묻는 화면이 나타날 수 있습니다.
 
-![Bob Main.png](Bob_Main.png)
+![Bob Main.png](images/Bob_Main.png)
 
 각 항목의 의미는 다음과 같습니다.
 
