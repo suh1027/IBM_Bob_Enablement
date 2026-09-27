@@ -2,7 +2,7 @@
 
 IBM Bob의 주요 개발 워크플로를 직접 실습하기 위한 Hands-on Repository입니다.
 
-총 3개의 Lab으로 구성되어 있으며, **설치 및 프로젝트 초기화 → Rules/Skills를 활용한 UI 재구성 및 검증 → 자율 웹페이지 구현** 순서로 진행합니다.
+총 3개의 Lab으로 구성되어 있으며, **설치 및 프로젝트 초기화 → Rules/Skills를 활용한 소스코드 재구성 및 검증 → 자율 웹페이지 구현** 순서로 진행합니다.
 
 ---
 
@@ -11,8 +11,8 @@ IBM Bob의 주요 개발 워크플로를 직접 실습하기 위한 Hands-on Rep
 | Lab | 주제 | 주요 내용 | 가이드 |
 |---|---|---|---|
 | **Lab 1** | **설치와 시작** | IBM Bob IDE 설치, Mode/Permission 확인, 프로젝트 열기, `/init`, 프로젝트 Context 초기화 | [Lab 1 가이드](./Lab_1/IBM%20Bob%20Hands-on%20Lab%2001.md) |
-| **Lab 2** | **UI 재구성** | Company Rules와 Carbon Builder Skill 적용, Ask/Plan/Agent를 활용한 UI 재구성, 브라우저 확인 및 `html-validate` 검증 | [Lab 2 가이드](./Lab_2/IBM%20Bob%20Hands-on%20Lab%2002.md) |
-| **Lab 3** | **회원가입 페이지** | 요구사항을 바탕으로 `create-plan` Skill을 활용해 계획을 만들고, Agent Mode로 간단한 회원가입 페이지를 자유롭게 구현 | [Lab 3 가이드](./Lab_3/IBM%20Bob%20Hands-on%20Lab%2003.md) |
+| **Lab 2** | **코드 재구성 및 검증** | Company Rules와 Carbon Builder Skill 적용, Ask/Plan/Agent를 활용한 UI 재구성, 브라우저 확인 및 `html-validate` 검증 | [Lab 2 가이드](./Lab_2/IBM%20Bob%20Hands-on%20Lab%2002.md) |
+| **Lab 3** | **소규모 웹사이트 개발** | 요구사항을 바탕으로 `create-plan` Skill을 활용해 계획을 만들고, Agent Mode로 간단한 회원가입 페이지를 자유롭게 구현 | [Lab 3 가이드](./Lab_3/IBM%20Bob%20Hands-on%20Lab%2003.md) |
 
 ---
 
@@ -23,7 +23,7 @@ Lab 1
 IBM Bob 설치 및 프로젝트 준비
         ↓
 Lab 2
-Rules + Skills 기반 UI 재구성 및 검증
+Rules + Skills 기반 소스코드 재구성 및 검증
         ↓
 Lab 3
 요구사항 기반 자율 구현
@@ -51,7 +51,7 @@ IBM Bob을 처음 사용하는 참가자를 위한 기본 실습입니다.
 
 ---
 
-## Lab 2 — UI 재구성
+## Lab 2 — 소스코드 재구성
 
 기업 내부 개발 규칙과 전문 Skill을 Bob 프로젝트에 적용하고, 기존 Café 웹페이지를 분석·계획·수정·검증합니다.
 
