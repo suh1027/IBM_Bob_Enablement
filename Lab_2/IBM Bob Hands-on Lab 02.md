@@ -715,7 +715,7 @@ Menu.html 이외의 파일은 수정하지 마.
 
 코드 수정이 완료되면 먼저 **개발자가 직접 브라우저에서 결과를 확인**합니다.
 
-![수정된 예시 HTML](image.png)
+![수정된 예시 HTML](images/image.png)
 
 수정된 예시 HTML
 
@@ -874,7 +874,7 @@ Agent 분석
 html-validate 재실행
 ```
 
-![검증결과 보고서 확인](image%201.png)
+![검증결과 보고서 확인](images/image%201.png)
 
 검증결과 보고서 확인
 
